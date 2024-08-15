@@ -1,0 +1,128 @@
+
+
+
+
+.influencer {
+    margin-top: 90px;
+
+}
+
+.for-img {
+    position: relative;
+}
+
+.main-img {
+    position: absolute;
+    background-color: #E02C6D;
+    
+}
+
+h1 {
+    margin-top: 150px;
+}
+.menu-list {
+    margin-left: 70px;
+}
+.list {
+    margin-top: 90px;
+}
+.foot-er {
+   
+    background-color: rgb(10, 8, 38);
+    height: 240px;
+    
+}
+
+
+.footer-items {
+    padding-top: 50px;
+    width: 270px;
+    margin: auto;
+    ul {
+        margin-left: 46px;
+    }
+}
+
+
+.frist-btn {
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    
+}
+
+
+.images ul {
+    line-height: 100px;
+    background-color: #F5F5F5;
+}
+
+.images .ebay {
+    margin-left: 180px;
+}
+
+.popular {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.see-more {
+    font-size: 15px;
+    margin-right: 4px;
+    margin-left: 290px;
+    color: #E02C6D;
+    
+}
+.last-btn {
+    /* background-color: #E02C6D; */
+    background: rgb(224, 44, 109);
+}
+
+
+.footer .influencer {
+   justify-content: center;
+
+}
+
+.main-sticer {
+    margin: 30px;
+    width: 330px;
+   border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px rgb(236, 235, 235);
+}
+
+.text-four {
+    padding: 10px 15px;
+  h3 {
+    margin: 0;
+  }
+  strong {
+    font-size: 20px;
+  }
+  p {
+    width: 196px;
+  }
+ 
+}
+
+.five-star i {
+    color: orange;
+}
+
+.abcd {
+   
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+    h2 {
+        height: 60px;
+        font-size: 50px;
+    }
+
+    p {
+        width: 500px;
+        height: 88px;
+       
+    }
+}
