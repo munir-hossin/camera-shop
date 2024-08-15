@@ -1,31 +1,57 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+h1,
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 
 .influencer {
     margin-top: 90px;
+  
 
 }
-
-.for-img {
-    position: relative;
-}
-
-.main-img {
-    position: absolute;
-    background-color: #E02C6D;
-    
-}
-
 h1 {
-    margin-top: 150px;
+    margin-top: 100px;
 }
+
+
+
+
 .menu-list {
     margin-left: 70px;
 }
 .list {
     margin-top: 90px;
 }
+
+/* main camera section */
+
+.for-img {
+    position: relative;
+    width: 480px;
+    height: 480px;
+   
+  }
+  
+.main-img {
+    position: absolute;  
+    top: 150px;   
+    width: 450px;
+    height: 440px;
+   
+  }
+  
+
 .foot-er {
    
     background-color: rgb(10, 8, 38);
@@ -53,7 +79,10 @@ h1 {
 
 .images ul {
     line-height: 100px;
-    background-color: #F5F5F5;
+    background-color: #fff;
+    border-top: 1px solid rgb(249, 246, 246);
+    border-bottom: 1px solid rgb(245, 239, 239);
+    /* background-color: #F5F5F5; */
 }
 
 .images .ebay {
@@ -116,8 +145,8 @@ h1 {
     margin-bottom: 100px;
 
     h2 {
-        height: 60px;
-        font-size: 50px;
+        height:px;
+        font-size: 38px;
     }
 
     p {
