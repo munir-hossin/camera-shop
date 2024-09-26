@@ -55,40 +55,34 @@ h5 {
 
 
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 775px) {
     .head-item {
         padding-top: 20px;
         .list {
             display: none;
         }
+    }
 
-        .influencer {
-            h3 {
-                /* margin-left: 60px; */
-            }
-           
+    .cart {
+        margin-left: auto;
+        padding-right: 7%;
+        ul:hover {
+           li a i {
+            color: red;
+            font-size: 20px;
+           }
         }
     }
 }
-
-/* 
-@media (max-width: 767.98px){
-    .influencer {
-      .stribe {
-          a {
-            display:none !important;
-          }
-      }
-    }
-  } */
-
 
 
 
 
 /* Banner */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 500px) {
     .header-img {
+        justify-content: center;
+        display: flex;
       img {
         width: 300px;
         height: 300px;
@@ -98,6 +92,21 @@ h5 {
     }
 
 }
+
+/* This is order */
+@media (max-width: 992.98px) {
+    .header-img{
+        order: 1;
+        margin: 0;
+    }
+}
+
+@media (max-width: 992.98px) {
+    .influencer-head-area{
+        order: 2;
+    }
+}
+
 
 @media only screen and (max-width: 575px) {   
     .header-img{
@@ -231,6 +240,8 @@ h5 {
                 color: orange;
             }
         }
+
+
         
     }
 
@@ -312,6 +323,69 @@ h5 {
 
     }
 
+}
+
+/* 
+******************** Modal CSS ****************
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx no work xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+*/
+
+.food-cart-modal {
+    img {
+        width: 80px;
+    }
+
+    tr {
+        td {
+            vertical-align: middle;
+        }
+
+        .quantity-area {
+            li {
+                cursor: pointer;
+                width: 25px;
+                height: 25px;
+                border: 1px solid red;
+                margin-left: 5px;
+                transition: var(--transition);
+                
+                i {
+                    font-size: 12px;
+                    color: red;
+                    transition: var(--transition);
+                }
+
+                &:hover {
+                    background-color: red;
+
+                    i {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .action {
+            cursor: pointer;
+
+            i {
+                color: red;
+                /* padding-left: 10px; */
+            }
+
+            &:hover {
+                font-size: 40px;
+                transition: all ease .6s;
+                /* background-color: aqua; */
+            }
+        }
+
+    }
+
+    .btn-custom {
+        
+             background-color: rgb(35, 69, 43);
+    }
 }
 
   
